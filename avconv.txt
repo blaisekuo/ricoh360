@@ -1,0 +1,5 @@
+install avconv
+
+apt-get install libav-tools
+
+ avconv -r 10 -i %04d.jpg -r 10 -vcodec libx264 -crf 20 -g 15 timelapse.mp4

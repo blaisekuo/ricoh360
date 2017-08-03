@@ -1,0 +1,7 @@
+apt-get install libusb-dev
+reinstall libc6-dev from a downlaoded .deb package
+ - cdefs.h was missing
+
+apt-get install gphoto2
+
+build /root/libptp
