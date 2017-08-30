@@ -1,8 +1,0 @@
-import netifaces as ni
-from sense_hat import SenseHat
-
-ip = ni.ifaddresses("wlan1")[2][0]["addr"]
-sense = SenseHat()
-sense.set_rotation(90)
-sense.show_message(ip)
-
